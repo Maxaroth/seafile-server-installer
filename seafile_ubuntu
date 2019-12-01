@@ -99,12 +99,12 @@ echo
 # -------------------------------------------
 # Vars
 # -------------------------------------------
-SEAFILE_ADMIN=admin@seafile.local
-SEAFILE_SERVER_USER=seafile
+SEAFILE_ADMIN=maxarothdev@gmail.com
+SEAFILE_SERVER_USER=Maxaroth
 SEAFILE_SERVER_HOME=/opt/seafile
-IP_OR_DOMAIN=127.0.0.1
+IP_OR_DOMAIN=maxaroth.ga
 SEAFILE_VERSION=$1
-TIME_ZONE=Europe/Berlin
+TIME_ZONE=America/New\ York
 
 if is_pro; then
     SEAFILE_SERVER_PACKAGE=seafile-pro-server_${SEAFILE_VERSION}_x86-64.tar.gz
@@ -177,7 +177,7 @@ log_format seafileformat '\$http_x_forwarded_for \$remote_addr [\$time_local] "\
 
 server {
     listen 80;
-    server_name seafile.example.com;
+    server_name http://maxaroth.ga;
 
     proxy_set_header X-Forwarded-For \$remote_addr;
 
@@ -403,8 +403,8 @@ COMPRESS_CACHE_BACKEND = 'locmem'
 
 TIME_ZONE                           = '${TIME_ZONE}'
 SITE_BASE                           = 'http://${IP_OR_DOMAIN}'
-SITE_NAME                           = 'Seafile Server'
-SITE_TITLE                          = 'Seafile Server'
+SITE_NAME                           = 'MSP'
+SITE_TITLE                          = 'MSP'
 SITE_ROOT                           = '/'
 ENABLE_SIGNUP                       = False
 ACTIVATE_AFTER_REGISTRATION         = False
