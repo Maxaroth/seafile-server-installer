@@ -44,19 +44,13 @@ As a precaution I have added a few simple checks to abort installation if any of
 
 For Seafile Professional Server, you will have to download the package prior to the installation and save it to /opt/.
 
-For **CentOS 7 (64bit)**
-
-```bash
-cd /root
-wget --no-check-certificate https://raw.githubusercontent.com/haiwen/seafile-server-installer/master/seafile_centos
-bash seafile_centos 6.1.2
-```
+For **CentOS 7 (64bit)*
 
 For **Ubuntu 16.04/18.04 (64bit)**
 
 ```bash
 cd /root
-wget --no-check-certificate https://raw.githubusercontent.com/haiwen/seafile-server-installer/master/seafile_ubuntu
+wget --no-check-certificate https://raw.githubusercontent.com/Maxaroth/seafile-server-installer/master/seafile_ubuntu
 bash seafile_ubuntu 6.1.2
 ```
 
